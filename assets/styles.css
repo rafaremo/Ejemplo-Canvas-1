@@ -11,6 +11,15 @@ header h1 {
 
 main {
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
 }
